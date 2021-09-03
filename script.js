@@ -32,7 +32,7 @@ const quizData = [
         correct: "b",
     },
 ];
-
+const start=document.getElementById("start")
 const quiz = document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
@@ -41,7 +41,6 @@ const b_text = document.getElementById('b_text')
 const c_text = document.getElementById('c_text')
 const d_text = document.getElementById('d_text')
 const submitBtn = document.getElementById('submit')
-const start=document.getElementById("start")
 let currentQuiz = 0
 let score = 0
 function startquiz(){
